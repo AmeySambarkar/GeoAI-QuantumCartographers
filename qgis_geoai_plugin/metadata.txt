@@ -1,0 +1,32 @@
+[general]
+name=GeoAI Water Resource Intelligence
+qgisMinimumVersion=3.22
+description=Multi-sensor satellite pipeline with NDVI/EVI/MNDWI/NDWI spectral indices, change detection, Maxar WMS streaming, GEE integration, and AI-powered water resource analysis via Claude.
+version=1.0.0
+author=GeoAI QuantumCartographers
+email=geo@quantumcartographers.ai
+
+about=
+    Integrates Google Earth Engine Satellite Embeddings V1, Maxar MGP streaming basemap
+    and STAC discovery, IBM-NASA Prithvi-EO-2.0 style spectral processing, and Claude
+    Opus analyst into a single QGIS dock panel.
+
+    Features:
+    - One-click spectral index layers (NDVI, EVI, MNDWI, NDWI, SAVI, NBR)
+    - Temporal change detection with z-score and cosine embedding maps
+    - Maxar VHR streaming basemap (requires API key)
+    - GEE Sentinel-2 cloud-free composite loader
+    - Threshold-based monitoring with QGIS message bar alerts
+    - Claude-powered 5-section water resource report generator
+    - Styled QML colormaps: NDVI green, NDWI blue, change diverging red-blue
+
+tracker=https://github.com/AmeySambarkar/GeoAI-QuantumCartographers/issues
+repository=https://github.com/AmeySambarkar/GeoAI-QuantumCartographers
+homepage=https://github.com/AmeySambarkar/GeoAI-QuantumCartographers
+
+tags=remote sensing, satellite, NDVI, water resources, change detection, Maxar, Earth Engine, AI
+
+icon=resources/icons/plugin_icon.svg
+experimental=False
+deprecated=False
+server=False

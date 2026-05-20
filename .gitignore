@@ -1,0 +1,4 @@
+satellite_pipeline/**/__pycache__/
+workspace/
+*.pyc
+.env
